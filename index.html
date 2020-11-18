@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/qdf4mtl.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Cheapest Flights</title>
+</head>
+
+<body>
+  <h1>FIND THE CURRENT CHEAPEST FLIGHTS</h1>
+  <div class="grid-container">
+    <div class="choose-container">
+      <form>
+        <label for="origin&destination">Enter Origin & Destination Airport Code</label>
+        <input type="text" id="origin" placeholder="ORIGIN CODE: LHR" required>
+        <input type="text" id="destination" placeholder="DESTINATION CODE: HAM" required>
+        </label>
+        <label for="departure">Date Of Departure & Return</label>
+        <input type="text" id="departure" class="date-input" placeholder="2021-01-18" required>
+        <input type="text" id="inbound" class="date-input" placeholder="2021-01-27" required>
+        <label for="currency">
+          <select name="currency" id="currency" required>
+            <option value="currency" disabled>Select Currency</option>
+            <option value="usd">USD</option>
+            <option value="gbp">GBP</option>
+            <option value="eur">EUR</option>
+          </select>
+        </label>
+        <button class="subbtn">Find Cheapest Flight</button>
+      </form>
+    </div>
+
+
+    <div class="flight-info-container opacity">
+      <h2 class="cfi">Cheapest Flight Info.</h2>
+      <div class="display"></div>
+      <div class="display-two"></div>
+      <div class="display-three"></div>
+    </div>
+  </div>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+<!-- 
+<select name="origin" id="origin">
+  <option value="og">Choose Origin</option>
+  <option value="atl">Atlanta, GA</option>
+  <option value="bwi">Baltimore, MD</option>
+  <option value="bos">Boston, MA</option>
+  <option value="clt">Charlotte, NC</option>
+  <option value="ord">Chicago, IL</option>
+  <option value="dfw">Dallas, TX</option>
+  <option value="den">Denver, CO</option>
+  <option value="dtw">Detroit, MI</option>
+  <option value="fll">Fort Lauderdale, FL</option>
+  <option value="hnl">Honolulu, HI</option>
+  <option value="iah">Houston, TX</option>
+  <option value="las">Las Vegas, NV</option>
+  <option value="lax">Los Angeles, CA</option>
+  <option value="mia">Miami, FL</option>
+  <option value="msp">Minneapolis, MN</option>
+  <option value="jfk">New York, NY</option>
+  <option value="mco">Orlando, FL</option>
+  <option value="phl">Philadelphia, PA</option>
+  <option value="phx">Phoenix, AZ</option>
+  <option value="pdx">Portland, OR</option>
+  <option value="slc">Salt Lake City, UT</option>
+  <option value="san">San Diego, CA</option>
+  <option value="sfo">San Francisco, CA</option>
+  <option value="sea">Seattle, WA</option>
+  <option value="tpa">Tampa, FL</option>
+  <option value="iad">Washington, D.C., VA</option>
+</select>
+
+<select name="destination" id="destination">
+  <option value="de">Choose Destination</option>
+  <option value="atl">Atlanta, GA</option>
+  <option value="bwi">Baltimore, MD</option>
+  <option value="bos">Boston, MA</option>
+  <option value="clt">Charlotte, NC</option>
+  <option value="ord">Chicago, IL</option>
+  <option value="dfw">Dallas, TX</option>
+  <option value="den">Denver, CO</option>
+  <option value="dtw">Detroit, MI</option>
+  <option value="fll">Fort Lauderdale, FL</option>
+  <option value="hnl">Honolulu, HI</option>
+  <option value="iah">Houston, TX</option>
+  <option value="las">Las Vegas, NV</option>
+  <option value="lax">Los Angeles, CA</option>
+  <option value="mia">Miami, FL</option>
+  <option value="msp">Minneapolis, MN</option>
+  <option value="jfk">New York, NY</option>
+  <option value="mco">Orlando, FL</option>
+  <option value="phl">Philadelphia, PA</option>
+  <option value="phx">Phoenix, AZ</option>
+  <option value="pdx">Portland, OR</option>
+  <option value="slc">Salt Lake City, UT</option>
+  <option value="san">San Diego, CA</option>
+  <option value="sfo">San Francisco, CA</option>
+  <option value="sea">Seattle, WA</option>
+  <option value="tpa">Tampa, FL</option>
+  <option value="iad">Washington, D.C., VA</option>
+</select> -->
