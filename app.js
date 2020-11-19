@@ -21,8 +21,9 @@ const getRatesOut = () => {
   let inbound = document.querySelector('#inbound').value;
 
   if (currency === '' || origin === '' || destination === '' || departure === '' || inbound === '') {
+    document.querySelector('.empty-inputs').classList.remove('e-none');
     setTimeout(() => {
-
+      document.querySelector('.empty-inputs').classList.add('e-none');
     }, 3000);
   } else {
 

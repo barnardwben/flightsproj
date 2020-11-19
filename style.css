@@ -9,6 +9,27 @@ body {
   box-sizing: border-box;
 }
 
+.empty-inputs-container {
+  position: absolute;
+  top: 6rem;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 1rem;
+}
+
+.empty-inputs {
+  background: rgba(245, 19, 19, 0.822);
+  width: 200px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.e-none {
+  display: none;
+}
+
 h1 {
   color: rgb(255, 255, 255);
   font-size: 4rem;
