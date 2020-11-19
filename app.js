@@ -21,7 +21,9 @@ const getRatesOut = () => {
   let inbound = document.querySelector('#inbound').value;
 
   if (currency === '' || origin === '' || destination === '' || departure === '' || inbound === '') {
-    return alert('Please Fill In All Form Inputs');
+    setTimeout(() => {
+
+    }, 3000);
   } else {
 
     document.querySelector('.flight-info-container').classList.remove('opacity')
