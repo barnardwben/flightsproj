@@ -1,2 +1,2 @@
 # flightsproj
-This Project was built with HTML, CSS, and JavaScript. It makes use of the Skyscanner API by supplying the user with the current cheapest flights.
+This Project was built with HTML, CSS, and JavaScript. It makes use of the Skyscanner API by supplying the user with the current cheapest flights. I built this project in one day, and what I gained from creating this project was a better understanding of how APIs work, as well as building some muscle memory when using fetch and promises. Where I can see improvement would be to overhaul my code, and use some OOP to write a cleaner and more maintainable base. 
